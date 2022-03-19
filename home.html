@@ -1,0 +1,68 @@
+<html>
+<head>
+<style>
+img{
+position: absolute;
+top:0px;
+left: 0px;
+z-index: -1;
+}
+.rounded
+{
+    border-radius:8px;
+    background-color: orange;
+    color: white;
+}
+.round
+{
+    border-radius:8px;
+    background-color: white;
+    color: rgb(5, 3, 3);
+}
+table,tr,td{
+    color:white;
+    font-family:'Times New Roman';
+    font-size: 19pt;
+    padding: 3x;    
+    border: 1px black;
+    }
+</style>
+</head>
+<body bgcolor="#EFF74A">
+<form action="thanks.html">
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br>
+<center>
+<table style="background: rgba(0,0,0,.4)" width=40%>
+<tr>
+    <td>Check in</td>
+    <td>Check out</td>
+    <td>Adults</td>
+    <td>Children</td>
+    <td><label style="font-size:10pt">From</label> 2,300 INR/Night</td>
+</tr>
+<tr>
+    <td><input class="round" value="2022-01-01" type="date" style="height:30px"></td>
+    <td><input class="round" value="2022-01-01" type="date" style="height:30px"></td>
+    <td><select class="round" style="height:30px; width:80px">
+        <option value=1>1</option>
+        <option value=2>2</option>
+        <option value=3>3</option>
+        <option value=4>4</option>
+    </select></td>
+    <td><select class="round" style="height:30px; width:80px">
+        <option value=0>0</option>
+        <option value=1>1</option>
+        <option value=2>2</option>
+    </select></td>
+    <td align="center"><input style="font-size:12pt;height:40px; width:150px" class="rounded" value="BOOK NOW" type="submit" ></td>
+</tr>
+</center>
+</table>
+</form>
+<div>
+    <img src="hotel.jpg" width=100% height=737px >
+</div>
+</body>
+</html>
